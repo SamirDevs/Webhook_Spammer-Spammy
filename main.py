@@ -1,4 +1,4 @@
-import time, requests, pyfiglet, threading, fastapi
+import time, requests, pyfiglet, threading
 print(pyfiglet.figlet_format("Spammy!"))
 
 msg = input("Please Insert Webhook Spam Message: ")
