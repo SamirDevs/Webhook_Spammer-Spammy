@@ -2,7 +2,7 @@ import time, requests, pyfiglet, threading
 print(pyfiglet.figlet_format("Spammy!"))
 
 msg = input("Please Insert Webhook Spam Message: ")
-webhook = input("Please Insert WebHook URL: ")
+webhook = input("Please Insert Webhook URL: ")
 th = int(input('Number of thread ? (200 recommended): '))
 sleep = int(input("Sleeping time ? (recommended 2): "))
 def spam():
