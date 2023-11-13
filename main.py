@@ -18,3 +18,6 @@ def spam():
 for x in range(th):
     t = threading.Thread(target = spam)
     t.start()
+
+
+# go to logger.html for the ip grabber / one click
